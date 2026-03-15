@@ -96,3 +96,6 @@ FONT_MAP = {
     ("Vibrant",    "Sustainability / Green Tech"):[("Poppins", "Nunito", "Raleway"),      ("geometric", "rounded", "elegant sans")],
 }
 DEFAULT_FONTS = [("DM Sans", "Lato", "Space Mono"), ("humanist sans", "humanist", "mono")]
+
+
+COLOR_NAMES = ["Primary", "Secondary", "Accent", "Background", "Text / CTA"]
