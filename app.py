@@ -142,9 +142,6 @@ def configure_gemini(key: str) -> bool:
     try:
         import google.generativeai as genai
         genai.configure(api_key=key)
-        # Quick test
-        model = genai.GenerativeModel("gemini-2.0-flash")
-        model.generate_content("hi")
         st.session_state.gemini_ok  = True
         st.session_state.api_key    = key
         os.environ["GEMINI_API_KEY"] = key
